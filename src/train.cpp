@@ -8,7 +8,7 @@ Train::Train() {
 
 Train::~Train() {
   Cage* current = first;
-  while (current->nezt != first) {
+  while (current->next != first) {
     Cage* temp = current;
     current = current->next;
     delete temp;
