@@ -22,7 +22,7 @@ void Train::addCage(bool light) {
   }
 }
 
-int Train::getLenght() {
+int Train::getLength() {
   if (!first) {
     return 0;
   }
